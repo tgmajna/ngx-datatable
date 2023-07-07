@@ -10,16 +10,26 @@
     "module": "es2020",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2018", "dom"],
+    "target": "ES2022",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@siemens/ngx-datatable": ["dist/ngx-datatable"],
-      "@siemens/ngx-datatable/*": ["dist/ngx-datatable/*"]
-    }
+      "@siemens/ngx-datatable": [
+        "dist/ngx-datatable"
+      ],
+      "@siemens/ngx-datatable/*": [
+        "dist/ngx-datatable/*"
+      ]
+    },
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
