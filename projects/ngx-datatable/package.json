@@ -1,6 +1,6 @@
 {
   "name": "@tgmajna/ngx-datatable",
-  "version": "22.0.1",
+  "version": "22.0.2",
   "description": "ngx-datatable fork.",
   "peerDependencies": {
     "@angular/common": ">=16.2.7",
